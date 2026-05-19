@@ -77,10 +77,10 @@ The nodes communicate through the CAN bus using the MCP2551 CAN transceiver.
 * Fuel Node Reads fuel value using ADC, Converts value into percentage and Sends fuel data via CAN to the Main Node.
 * Indicator Node Receives CAN commands which Controls LED blinking patterns.
 * Main Node
- * Reads temperature sensor
- * Receives fuel level data
- * Sends indicator control commands
- * Displays all parameters on LCD
+   - Reads temperature sensor
+   - Receives fuel level data
+   - Sends indicator control commands
+   - Displays all parameters on LCD
 
 # Features
 * Multi-node CAN communication
