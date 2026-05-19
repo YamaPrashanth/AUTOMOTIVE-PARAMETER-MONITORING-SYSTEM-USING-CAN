@@ -8,7 +8,7 @@ This project simulates a real-time vehicle monitoring system where multiple embe
 
 This project is designed using three independent CAN nodes:
 
-## Node	Function
+## > Node	Function
 * Main Node	Central controller + LCD dashboard
 * Fuel Node	Reads fuel sensor and transmits data
 * Indicator Node	Controls left/right indicators
@@ -16,15 +16,15 @@ This project is designed using three independent CAN nodes:
 The nodes communicate through the CAN bus using the MCP2551 CAN transceiver.
 
 # Parameters Monitored
-## Engine Temperature
+## > Engine Temperature
 * Measured using DS18B20 digital temperature sensor
 * Uses 1-Wire communication protocol
 * Displayed continuously on LCD
-## Fuel Level
+## > Fuel Level
 * Read through ADC
 * Converted into percentage (0–100%)
 * Transmitted from Fuel Node via CAN
-## Turn Indicators
+## > Turn Indicators
 * Left and Right indicators controlled through switches
 * Indicator Node performs LED blinking operations
 
@@ -32,17 +32,17 @@ The nodes communicate through the CAN bus using the MCP2551 CAN transceiver.
 ## The project follows a distributed CAN-based architecture.
 
 * Main Node (Master Controller)
-** Reads temperature sensor
-** Receives fuel data from Fuel Node
-Sends indicator commands
-Updates LCD dashboard
-🔹 Fuel Node
-Reads analog fuel sensor
-Converts ADC value into percentage
-Sends data over CAN bus
-🔹 Indicator Node
-Receives commands through CAN
-Controls left/right indicator LEDs
+  * Reads temperature sensor
+  * Receives fuel data from Fuel Node
+  * Sends indicator commands
+  * Updates LCD dashboard
+* Fuel Node
+  * Reads analog fuel sensor
+  * Converts ADC value into percentage
+  * Sends data over CAN bus
+* Indicator Node
+  * Receives commands through CAN
+  * Controls left/right indicator LEDs
 🧩 Block Diagram
 
 Add your block diagram image here
