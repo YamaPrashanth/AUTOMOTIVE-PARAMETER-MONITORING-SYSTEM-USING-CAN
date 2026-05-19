@@ -67,16 +67,6 @@ The nodes communicate through the CAN bus using the MCP2551 CAN transceiver.
 * Keil µVision IDE
 * Flash Magic
 
-# Build & Flash
-* Step 1
- * Open the project in Keil µVision
-* Step 2
- * Compile the project
-* Step 3
- * Generate .hex file
-* Step 4
- * Flash firmware using Flash Magic
-
 # CAN Bus Connections
 * Connect all nodes using:
  * CANH ↔ CANH
