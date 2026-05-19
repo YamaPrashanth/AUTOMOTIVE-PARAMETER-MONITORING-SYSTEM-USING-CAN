@@ -1,8 +1,15 @@
 # AUTOMOTIVE-PARAMETER-MONITORING-SYSTEM-USING-CAN
-This project simulates a real-time vehicle monitoring system where multiple embedded nodes communicate over CAN bus to display important vehicle parameters such as:  
-*  Engine Temperature 
-*  Fuel Level 
-*  Turn Indicators (Left / Right)
+This project demonstrates a real-time automotive parameter monitoring system using the CAN (Controller Area Network) protocol, where multiple embedded nodes communicate efficiently to monitor and display critical vehicle information. The system is designed using LPC2129 ARM7 microcontrollers with inbuilt CAN support, enabling reliable and high-speed data exchange between different vehicle modules.
+
+The monitoring system continuously acquires and displays important vehicle parameters such as:
+
+* Engine Temperature Monitoring
+* Fuel Level Detection
+* Turn Indicator Status (Left / Right)
+
+Each parameter is handled by dedicated nodes connected through the CAN bus, ensuring modular design, reduced wiring complexity, and efficient communication. The received data is displayed on an LCD dashboard in real time, simulating an intelligent vehicle monitoring and dashboard system used in modern automobiles.
+
+This project highlights the practical implementation of embedded systems, CAN-based communication, sensor interfacing, and real-time automotive monitoring applications.
 
 # Project Overview
 
