@@ -1,5 +1,5 @@
-# AUTOMOTIVE-PARAMETER-MONITORING-SYSTEM-USING-CAN
-This project demonstrates a real-time automotive parameter monitoring system using the CAN (Controller Area Network) protocol, where multiple embedded nodes communicate efficiently to monitor and display critical vehicle information. The system is designed using LPC2129 ARM7 microcontrollers with inbuilt CAN support, enabling reliable and high-speed data exchange between different vehicle modules.
+# AUTOMOTIVE-PARAMETER-MONITORING-USING-CAN
+This project demonstrates a real-time automotive parameter monitoring using the CAN (Controller Area Network) protocol, where multiple embedded nodes communicate efficiently to monitor and display critical vehicle information. The system is designed using LPC2129 ARM7 microcontrollers with inbuilt CAN support, enabling reliable and high-speed data exchange between different vehicle modules.
 
 The monitoring system continuously acquires and displays important vehicle parameters such as:
 
