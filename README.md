@@ -43,17 +43,15 @@ The nodes communicate through the CAN bus using the MCP2551 CAN transceiver.
 * Indicator Node
   * Receives commands through CAN
   * Controls left/right indicator LEDs
-🧩 Block Diagram
 
-Add your block diagram image here
+# Block Diagram
+<img width="658" height="471" alt="image" src="https://github.com/user-attachments/assets/316ab1cc-ce05-45c0-a126-d4aa985789f7" />
 
-![Block Diagram](images/block_diagram.png)
-🔌 CAN Network
+# CAN Network
+"C:\Users\Prashanth\OneDrive\Pictures\IMG_2599.HEIC"
 
-Add CAN network image here
+# LCD Output
 
-![CAN Network](images/can_network.png)
-📟 LCD Output
 
 Add LCD output image here
 
@@ -98,7 +96,6 @@ Flash firmware using Flash Magic
 🔹 CAN Bus Connections
 
 Connect all nodes using:
-
 CANH ↔ CANH
 CANL ↔ CANL
 
