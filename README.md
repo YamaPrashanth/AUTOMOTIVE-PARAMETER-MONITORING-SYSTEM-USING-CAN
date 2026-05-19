@@ -70,8 +70,8 @@ The nodes communicate through the CAN bus using the MCP2551 CAN transceiver.
 # CAN Bus Connections
 
 * Connect all nodes using:
- * CANH ↔ CANH
- * CANL ↔ CANL
+  - CANH ↔ CANH
+   - CANL ↔ CANL
 
 # System Working
 * Fuel Node Reads fuel value using ADC, Converts value into percentage and Sends fuel data via CAN to the Main Node.
