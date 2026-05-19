@@ -1,8 +1,8 @@
 # AUTOMOTIVE-PARAMETER-MONITORING-SYSTEM-USING-CAN
 This project simulates a real-time vehicle monitoring system where multiple embedded nodes communicate over CAN bus to display important vehicle parameters such as:  
-* 🌡️ Engine Temperature 
-* ⛽ Fuel Level 
-* 🔄 Turn Indicators (Left / Right)
+*  Engine Temperature 
+*  Fuel Level 
+*  Turn Indicators (Left / Right)
 
 # Project Overview
 
@@ -51,7 +51,7 @@ The nodes communicate through the CAN bus using the MCP2551 CAN transceiver.
 <img width="3264" height="1501" alt="can" src="https://github.com/user-attachments/assets/f21c05c2-aa8c-425c-95f3-f99c432b452b" />
 
 # LCD Output
-<img width="1846" height="852" alt="CAN" src="https://github.com/user-attachments/assets/4e0ffafe-9815-4bb4-95a5-ce1414d6781f" />
+<img width="1280" height="960" alt="can1" src="https://github.com/user-attachments/assets/4e7e31c9-d47f-4875-9fb5-90b078c0c72c" />
 
 # Hardware Components
 * LPC2129 ARM7 Microcontroller(inbuilt CAN)
@@ -68,6 +68,7 @@ The nodes communicate through the CAN bus using the MCP2551 CAN transceiver.
 * Flash Magic
 
 # CAN Bus Connections
+
 * Connect all nodes using:
  * CANH ↔ CANH
  * CANL ↔ CANL
