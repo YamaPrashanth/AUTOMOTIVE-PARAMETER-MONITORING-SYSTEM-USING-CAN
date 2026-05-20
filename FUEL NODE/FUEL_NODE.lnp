@@ -1,0 +1,10 @@
+--cpu ARM7TDMI
+".\startup.o"
+".\delay.o"
+".\adc.o"
+".\fuel_node.o"
+".\can.o"
+--strict --scatter ".\FUEL_NODE.sct"
+--summary_stderr --info summarysizes --map --xref --callgraph --symbols
+--info sizes --info totals --info unused --info veneers
+--list ".\FUEL_NODE.map" -o .\FUEL_NODE.axf

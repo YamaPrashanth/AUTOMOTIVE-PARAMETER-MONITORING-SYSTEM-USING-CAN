@@ -1,0 +1,13 @@
+.\fuel_node.o: fuel_node.c
+.\fuel_node.o: headers.h
+.\fuel_node.o: E:\KEIL\ARM\Inc\Philips\LPC21xx.h
+.\fuel_node.o: types.h
+.\fuel_node.o: defines.h
+.\fuel_node.o: delay.h
+.\fuel_node.o: pin_function_defines.h
+.\fuel_node.o: adc_defines.h
+.\fuel_node.o: can_defines.h
+.\fuel_node.o: headers.h
+.\fuel_node.o: types.h
+.\fuel_node.o: can.h
+.\fuel_node.o: types.h
