@@ -1,0 +1,11 @@
+.\can.o: can.c
+.\can.o: E:\KEIL\ARM\Inc\Philips\lpc21xx.h
+.\can.o: types.h
+.\can.o: can.h
+.\can.o: types.h
+.\can.o: can_defines.h
+.\can.o: headers.h
+.\can.o: types.h
+.\can.o: defines.h
+.\can.o: delay.h
+.\can.o: pin_function_defines.h

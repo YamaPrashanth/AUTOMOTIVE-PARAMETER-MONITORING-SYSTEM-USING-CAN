@@ -1,0 +1,21 @@
+Dependencies for Project 'INDICATOR_NODE', Target 'Target 1': (DO NOT MODIFY !)
+F (.\Startup.s)(0x6A074830)(--cpu ARM7TDMI --pd "__EVAL SETA 1" -g --apcs=interwork -I E:\KEIL\ARM\RV31\INC-I E:\KEIL\ARM\CMSIS\Include-I E:\KEIL\ARM\Inc\Philips--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\delay.c)(0x6A0C4D18)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I E:\KEIL\ARM\RV31\INC-I E:\KEIL\ARM\CMSIS\Include-I E:\KEIL\ARM\Inc\Philips-o .\delay.o --omf_browse .\delay.crf --depend .\delay.d)
+F (.\indicator_node.c)(0x6A0C4D10)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I E:\KEIL\ARM\RV31\INC-I E:\KEIL\ARM\CMSIS\Include-I E:\KEIL\ARM\Inc\Philips-o .\indicator_node.o --omf_browse .\indicator_node.crf --depend .\indicator_node.d)
+I (headers.h)(0x6A0C4DB3)
+I (E:\KEIL\ARM\Inc\Philips\LPC21xx.h)(0x69808B2C)
+I (types.h)(0x6A0748F0)
+I (defines.h)(0x6A0748EF)
+I (delay.h)(0x6A0748EF)
+I (pin_function_defines.h)(0x6A0748EF)
+I (can_defines.h)(0x6A0748B6)
+I (can.h)(0x6A0748F0)
+F (.\can.c)(0x6A074830)(-c --cpu ARM7TDMI -D__EVAL -g -O0 --apcs=interwork -I E:\KEIL\ARM\RV31\INC-I E:\KEIL\ARM\CMSIS\Include-I E:\KEIL\ARM\Inc\Philips-o .\can.o --omf_browse .\can.crf --depend .\can.d)
+I (E:\KEIL\ARM\Inc\Philips\lpc21xx.h)(0x69808B2C)
+I (types.h)(0x6A0748F0)
+I (can.h)(0x6A0748F0)
+I (can_defines.h)(0x6A0748B6)
+I (headers.h)(0x6A0C4DB3)
+I (defines.h)(0x6A0748EF)
+I (delay.h)(0x6A0748EF)
+I (pin_function_defines.h)(0x6A0748EF)
